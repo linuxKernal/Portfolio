@@ -5,6 +5,7 @@ import terraform from "../assets/terraform.png";
 import nextjs from "../assets/nextjs.png";
 import typescript from "../assets/ts-logo-128.png";
 import remixjs from "../assets/remix-light.png";
+import tailwind from "../assets/tailwindcss.svg";
 
 export default function SkillSet() {
     return (
@@ -12,7 +13,7 @@ export default function SkillSet() {
             <h2 className="text-3xl text-red-500 text-center font-semibold underline decoration-2 py-4 decoration-dashed underline-offset-6">
                 Tools & Technologies
             </h2>
-            <div className="flex gap-4 w-fit justify-center flex-wrap pt-4">
+            <div className="flex gap-4 justify-center flex-wrap pt-4 mx-auto">
                 <SkillLabel
                     label="Python"
                     image="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
@@ -53,10 +54,7 @@ export default function SkillSet() {
                     label="Git"
                     image="https://git-scm.com/images/logos/logomark-orange@2x.png"
                 />
-                <SkillLabel
-                    label="Tailwindcss"
-                    image="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
-                />
+                <SkillLabel label="Tailwindcss" image={tailwind} />
                 <SkillLabel label="Terraform" image={terraform} />
 
                 <SkillLabel

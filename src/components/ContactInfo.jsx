@@ -4,7 +4,9 @@ import GithubIcon from "../assets/github.svg.png";
 export default function ContactInfo() {
     return (
         <div className="p-4 my-8 space-y-4" id="contactinfo">
-            <h2 className="text-3xl text-red-500 text-center">Let's Connect</h2>
+            <h2 className="text-3xl text-red-500 text-center font-medium">
+                Let's Connect
+            </h2>
             <p className="py-2 text-black text-center">
                 I'm always open to discussing new project ideas, job
                 opportunities, or interesting collaborations.
