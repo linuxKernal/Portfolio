@@ -10,16 +10,14 @@ function App() {
     return (
         <div className="grid grid-rows-[auto_1fr_auto] h-screen">
             <Header />
-            <div className="max-w-[60rem] h-full mx-auto mt-10">
-                <Hero />
-            </div>
-            <Wrapper color={"bg-gray-50"}>
-                <SkillSet />
-            </Wrapper>
             <Wrapper>
+                <div className="max-w-[60rem] mx-auto mt-10 mb-8">
+                    <Hero />
+                </div>
+                <SkillSet />
                 <ProjectSection />
+                <ContactInfo />
             </Wrapper>
-            <ContactInfo />
             <Footer />
         </div>
     );

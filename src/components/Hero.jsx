@@ -24,7 +24,7 @@ export default function Hero() {
                     <button className="px-4 py-1.5 bg-red-500 text-white border hover:bg-white duration-300 hover:scale-105 hover:border-red-500 hover:text-red-500 active:translate-y-3">
                         <a
                             target="_blank"
-                            href="https://drive.google.com/file/d/1dxX5-Mn5BX59FC55aFIvDV7dIwdvwhpH/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1rVKAz-oxwA_osHMzhe85e0Sk2eatRqJM/view?usp=sharing"
                         >
                             Download Resume
                         </a>
