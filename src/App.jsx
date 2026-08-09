@@ -11,7 +11,7 @@ function App() {
         <div className="grid grid-rows-[auto_1fr_auto] h-screen">
             <Header />
             <Wrapper>
-                <div className="max-w-[60rem] mx-auto mt-10 mb-8">
+                <div className="max-w-[60rem] mx-auto mt-10 mb-8 px-4">
                     <Hero />
                 </div>
                 <SkillSet />

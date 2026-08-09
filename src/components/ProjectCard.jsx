@@ -7,7 +7,7 @@ export default function ProjectCard({
     websiteLink,
 }) {
     return (
-        <div className="max-w-96 space-y-3">
+        <div className="w-11/12 mx-auto md:max-w-96 space-y-3">
             <div>
                 <img className="w-full rounded-md" src={image} alt="" />
             </div>
