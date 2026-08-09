@@ -6,10 +6,12 @@ import nextjs from "../assets/nextjs.png";
 import typescript from "../assets/ts-logo-128.png";
 import remixjs from "../assets/remix-light.png";
 import tailwind from "../assets/tailwindcss.svg";
+import gitLogo from "../assets/github-mark.png";
+import reactLogo from "../assets/react.svg";
 
 export default function SkillSet() {
     return (
-        <div className="h-64">
+        <div className="h-fit pb-4">
             <h2 className="text-3xl text-red-500 text-center font-semibold underline decoration-2 py-4 decoration-dashed underline-offset-6">
                 Tools & Technologies
             </h2>
@@ -46,14 +48,8 @@ export default function SkillSet() {
                     image="https://www.postgresql.org/media/img/about/press/elephant.png"
                 />
                 <SkillLabel label="FastAPI" image={FastApi} />
-                <SkillLabel
-                    label="React Js"
-                    image="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png"
-                />
-                <SkillLabel
-                    label="Git"
-                    image="https://git-scm.com/images/logos/logomark-orange@2x.png"
-                />
+                <SkillLabel label="React Js" image={reactLogo} />
+                <SkillLabel label="Git" image={gitLogo} />
                 <SkillLabel label="Tailwindcss" image={tailwind} />
                 <SkillLabel label="Terraform" image={terraform} />
 

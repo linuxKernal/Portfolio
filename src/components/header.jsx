@@ -4,8 +4,8 @@ export default function Header() {
     return (
         <header className="p-4 w-full shadow-2xs">
             <Wrapper>
-                <nav className="ml-auto w-6 mr-[20%]">
-                    <ul className="flex gap-8 cursor-pointer">
+                <nav className="flex justify-end">
+                    <ul className="flex gap-4 sm:gap-8 cursor-pointer">
                         <li className="hover:underline">
                             <a href="#projects">Works</a>
                         </li>
