@@ -31,8 +31,8 @@ Developed an admin dashboard with role-based access control, inventory managemen
                         "OAuth2",
                         "Tanstack Query",
                     ]}
-                    sourceCode="https://github.com/linuxKernal/super-market/tree/master"
-                    websiteLink="#"
+                    sourceCode="https://github.com/linuxKernal/supermart"
+                    websiteLink="https://super-market-app.netlify.app/"
                 />
                 <ProjectCard
                     image={projectCoverImage1}
